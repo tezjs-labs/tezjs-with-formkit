@@ -1,0 +1,23 @@
+{
+  "name": "tezjs-with-formkit",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "tez dev",
+    "build": "tez build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formkit/themes": "^1.0.0-beta.10",
+    "@formkit/vue": "^1.0.0-beta.10",
+    "@tailwindcss/typography": "^0.5.2",
+    "@tezjs/vue": "0.0.84"
+  },
+  "devDependencies": {
+    "@tezjs/cli": "0.0.90",
+    "@tezjs/route": "0.0.84",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
